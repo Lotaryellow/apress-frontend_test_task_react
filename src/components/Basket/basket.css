@@ -1,0 +1,80 @@
+.basketBody {
+  box-shadow: 0 2px 4px #888888;
+  right: 10px;
+  top: 10px;
+  position: fixed;
+  width: 450px;
+  max-height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+.basketHeader {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  padding: 0px 0px 0px 10px;
+  background-color: gray;
+  min-height: 50px;
+}
+.basketFooter {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px 20px 30px;
+  background-color: rgba(202, 200, 200, 0.459);
+}
+.basketOrderButton {
+  margin: 0px 0px 0px 10px;
+  width: 170px;
+  height: 30px;
+  color: white;
+  background-color: rgba(204, 7, 56, 0.89);
+}
+.basketClose {
+  margin: 0px 0px 0px 10px;
+  width: 170px;
+  height: 30px;
+  color: white;
+  background-color: rgba(204, 7, 56, 0.89);
+}
+.basketCenter {
+  min-height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.basketCenterItem {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  background-color: rgba(202, 200, 200, 0.459);
+}
+.basketItemImg {
+  padding: 15px;
+  width: 150px;
+}
+.basketItemInfo {
+  display: flex;
+  padding: 0px 20px 0px 0px;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5px;
+}
+.basketInfoTitle {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.basketInfoPrice {
+  font-weight: 400;
+  font-size: 16px;
+}
+.basketDeleteClose {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  color: rgba(204, 7, 56, 0.89);
+  font-weight: 700;
+}

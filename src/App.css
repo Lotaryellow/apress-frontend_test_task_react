@@ -1,0 +1,10 @@
+.mainTitle {
+  color: rgb(100, 99, 99);
+  font-weight: lighter;
+  text-align: center;
+  font-size: 50px;
+  transition: 1.8s;
+}
+.mainTitle:hover {
+  transform: scale(1.2);
+}

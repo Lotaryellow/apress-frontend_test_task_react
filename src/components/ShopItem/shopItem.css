@@ -1,0 +1,55 @@
+.shopItemBody {
+  padding: 20px 0px 0px 0px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shopItemBody img {
+  width: 200px;
+}
+.shopBodyInfo {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: start;
+  padding: 0px 0px 10px 20px;
+  transition: 1.2s; /* Время эффекта */
+}
+.shopBodyInfo:hover {
+  transform: scale(1.05);
+}
+.shopInfoPrice {
+  font-size: 22px;
+  padding: 0px 0px 0px 0px;
+}
+.shopBodyGroupButton {
+  padding: 30px 0px 0px 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.shopButtonOrder {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  background-color: rgba(204, 7, 56, 0.89);
+  width: 130px;
+  height: 30px;
+}
+.shopButtonOrder a {
+  color: white;
+  text-decoration: none;
+}
+.shopButtonBasket {
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(231, 227, 227);
+  width: 130px;
+  height: 30px;
+}
+.shopButtonBasket a {
+  color: black;
+  text-decoration: none;
+}
